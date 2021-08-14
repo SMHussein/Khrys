@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/Logo-b.png" />
+
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+
+    <title>Photography</title>
+
+
+</head>
+
+<body>
+
+    <nav class="nav__fixed">
+        <a href="#header" class="nav__fixed__link active-navigator nav__fixed__link--1"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#features" class="nav__fixed__link nav__fixed__link--2"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#about" class="nav__fixed__link nav__fixed__link--3"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#portfolio" class="nav__fixed__link nav__fixed__link--4"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#pricing" class="nav__fixed__link nav__fixed__link--5"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#faq" class="nav__fixed__link nav__fixed__link--6"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#feedback" class="nav__fixed__link nav__fixed__link--7"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#get-in-touch" class="nav__fixed__link nav__fixed__link--8"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#reservation" class="nav__fixed__link nav__fixed__link--9"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+        <a href="#footer" class="nav__fixed__link nav__fixed__link--10"><svg class="nav__fixed__icon">
+                <use xlink:href="img/sprite.svg#icon-ellipse"></use>
+            </svg></a>
+    </nav>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__input" id="navigation__input">
+        <label for="navigation__input" class="navigation__btn">
+            <span class="navigation__icon"></span>
+        </label>
+
+        <div class="navigation__language">
+            <p class="paragraph"><a href="#" class="navigation__language__link">UA</a></p>
+            <p class="paragraph"><a href="#"
+                    class="navigation__language__link navigation__language__link--active">EN</a></p>
+
+        </div>
+
+
+        <nav class="navigation__nav">
+
+            <div class="navigation__language__900">
+                <p class="paragraph"><a href="#" class="navigation__language__link">UA</a></p>
+                <p class="paragraph"><a href="#"
+                        class="navigation__language__link navigation__language__link--active">EN</a></p>
+
+            </div>
+
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+                <li class="navigation__item"><a href="#portfolio" class="navigation__link">Portfolio</a></li>
+                <li class="navigation__item"><a href="#features" class="navigation__link">Services</a></li>
+                <li class="navigation__item"><a href="#footer" class="navigation__link">Contact</a></li>
+            </ul>
+
+            <ul class="navigation__list navigation__list__media">
+                <li class="navigation__item"><a href="#" class="navigation__link navigation__link__media"><svg
+                            class="navigation__link__media-icon">
+                            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                        </svg></a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link navigation__link__media"><svg
+                            class="navigation__link__media-icon">
+                            <use xlink:href="img/sprite.svg#icon-insta"></use>
+                        </svg></a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    <header class="header" id="header">
+        <div class="header__logo-box">
+            <img src="img/Logo.png" class="header__logo" alt="Logo" />
+        </div>
+
+        <div class="header__text-box">
+            <img class="header__lip" src="img/lip.png" alt="Lip">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Khrystyna</span>
+                <span class="heading-primary--main">Tsaryk </span>
+                <span class="heading-primary--sub">Lifestyle photographer and <br>retoucher</span>
+            </h1>
+
+            <a href="#portfolio" class="btn btn--brown">My portfolio</a>
+        </div>
+
+        <div class="header__gallery">
+            <figure class="header__gallery__item header__gallery__item--1">
+                <picture class="header__gallery__img">
+                    <source media="(max-width: 500px)" srcset="img/hero.png">
+                    <source media="(min-width: 501)" srcset="img/heroall.png">
+                    <img class="header__gallery__img" src="img/heroall.png" alt="Header Image">
+                </picture>
+            </figure>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="section section__features u-margin-top-huge">
+            <h2 class="heading-secondery features__heading--primary">What can I do for you?</h2>
+
+            <div class="features u-margin-top-meduim">
+                <div class="features__item">
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-camera"></use>
+                    </svg>
+                    <h3 class="heading-tertiary features__heading">Photo shooting</h3>
+                    <p class="paragraph">I do professional studio and outdoor photography. I enjoy working with people
+                        and capture precious moments for them</p>
+                </div>
+                <div class="features__item">
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-frame"></use>
+                    </svg>
+                    <h3 class="heading-tertiary features__heading">Photo retouching</h3>
+                    <p class="paragraph">I process and deliver high quality retouched photos for private
+                        and corporate customers</p>
+                </div>
+                <div class="features__item">
+                    <svg class="features__icon">
+                        <use xlink:href="img/sprite.svg#icon-eye"></use>
+                    </svg>
+                    <h3 class="heading-tertiary features__heading">Style consultation</h3>
+                    <p class="paragraph">I do consult on importatnt details like photography style, wardrobe, and
+                        location. I can help with posing techniques as well</p>
+                </div>
+            </div>
+
+            <a class="btn btn--text u-margin-top-meduim" href="#pricing"><span>Check prices</span> &rarr;</a>
+        </section>
+
+        <section id="about" class="section section__about u-margin-top-large">
+            <h2 class="heading-secondery about__heading">About</h2>
+
+            <div class="about__big">
+                <div class="about__background">
+                    <figure class="about__figure about__figure--1"> <img src="img/Self 1.png" alt=""
+                            class="about__img about__img--1">
+                    </figure>
+                    <figure class="about__figure about__figure--2"> <img src="img/Self 2.png" alt=""
+                            class="about__img about__img--2">
+                    </figure>
+
+
+                </div>
+                <p class="about__text paragraph">Hi! My name is Khrystyna Tsaryk. I am a professional photographer with
+                    work
+                    experience
+                    for more than six years. I did reportage photography
+                    for magazines. Also, I collaborated with modal agencies and did lots of model tests shots. Nowadays,
+                    I
+                    mostly do creative shooting as well
+                    as photo retouching for private and corporate customers. <br><br>
+
+                    I am very passionate about what I do. For me, photography is an art and endless search
+                    for beauty in everything! If you feel my vibe – get
+                    in touch with me. I believe we could create something really very special together!</p>
+                <a href="#footer" class="btn btn--brown">Contact</a>
+            </div>
+            <div class="about__small">
+                <div class="about__background"></div>
+                <img src="img/self small 1.png" alt="" class="about__img about__img--1">
+
+                <img src="img/self small 2.png" alt="" class="about__img about__img--2">
+
+
+                <p class="about__text paragraph"><span>Hi! My name is Khrystyna Tsaryk. I am a professional
+                        photographer with
+                        work
+                        experience
+                        for more than six years.</span><span>I did reportage photography
+                        for magazines. Also, I collaborated with modal agencies and did lots of model tests shots.
+                        Nowadays,
+                        I
+                        mostly do creative shooting as well
+                        as photo retouching for private and corporate customers.</span></p>
+
+                <p class="about__text paragraph about__p__link">I am very passionate about what I do. For me,
+                    photography is an art and
+                    endless search
+                    for beauty in everything! If you feel my vibe – get
+                    in touch with me. I believe we could create something really very special together!
+                    <a href="#footer" class="btn btn--brown about__btn">Contact</a></p>
+                <a href="" id="about__btn" class="btn btn--text">Read more about me &rarr;</a>
+            </div>
+
+        </section>
+
+
+        <section id="portfolio" class="section section__portfolio u-margin-top-huge">
+            <header class="portfolio__header">
+                <h2 class="heading-secondery">Portfolio</h2>
+                <nav class="portfolio__nav">
+                    <ul class="portfolio__nav__list">
+                        <li class="portfolio__nav__item"><a href="#" class="portfolio__nav__link">All</a></li>
+                        <li class="portfolio__nav__item"><a href="#" class="portfolio__nav__link">Love Story</a></li>
+                        <li class="portfolio__nav__item"><a href="#" class="portfolio__nav__link">Arttsy Shoots</a></li>
+                        <li class="portfolio__nav__item"><a href="#" class="portfolio__nav__link">Lifestyle</a></li>
+                        <li class="portfolio__nav__item"><a href="#" class="portfolio__nav__link">Commercial</a></li>
+                    </ul>
+                </nav>
+                <nav class="portfolio__nav__collapse">
+                    <ul class="portfolio__nav__all">
+                        <li class="portfolio__nav__item">All</li>
+                        <li class="portfolio__nav__item portfolio__nav__item--expand"><svg class="portfolio__nav__icon"><use xlink:href="img/sprite.svg#icon-arrow-down"></use></svg></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="portfolio__gallery">
+                <figure class="portfolio__gallery__item portfolio__gallery__item--1">
+                    <img src="img/gallery 1.jpg" alt="Gallery Image 1" class="portfolio__gallery__img">
+                    <figcaption class="portfolio__gallery__caption">
+                        <span class="portfolio__gallery__text--1">Artsy&nbsp;Shots</span>
+                        <span class="portfolio__gallery__text--2">Model- Olena A</span>
+                    </figcaption>
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--2">
+                    <img src="img/gallery 2.png" alt="Gallery Image 2" class="portfolio__gallery__img">
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--3">
+                    <img src="img/gallery 3.jpg" alt="Gallery Image 3" class="portfolio__gallery__img">
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--4">
+                    <img src="img/gallery 4.jpeg" alt="Gallery Image 4" class="portfolio__gallery__img">
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--5">
+                    <img src="img/gallery 5.jpg" alt="Gallery Image 5" class="portfolio__gallery__img">
+                    <figcaption class="portfolio__gallery__caption">
+                        <span class="portfolio__gallery__text--1">Love&nbsp;Story</span>
+                        <span class="portfolio__gallery__text--2">Iryna & Roman</span>
+                        <a href="#" id="portfolio__order__btn" class="btn btn--brown">Order</a>
+                    </figcaption>
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--6">
+                    <img src="img/gallery 6.jpg" alt="Gallery Image 6" class="portfolio__gallery__img">
+                    <figcaption class="portfolio__gallery__caption">
+                        <span class="portfolio__gallery__text--1">Street&nbsp;Style</span>
+                        <span class="portfolio__gallery__text--2">Model- Oksana D</span>
+                    </figcaption>
+                </figure>
+                <figure class="portfolio__gallery__item portfolio__gallery__item--7">
+                    <img src="img/gallery 7.jpg" alt="Gallery Image 7" class="portfolio__gallery__img">
+                </figure>
+                <div class="portfolio__gallery__item portfolio__gallery__item--8">
+                    <p>Are you looking for colaboration?</p>
+                    <a href="#footer" class="btn btn--text"><span>Contact</span> &rarr;</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="pricing" class="section section__pricing u-margin-top-large">
+            <h2 class="heading-secondery pricing__heading">Pricing</h2>
+
+            <div class="pricing">
+                <div class="pricing__card pricing__card--1">
+                    <figure class="pricing__card__figure pricing__card__figure--1">
+                        <img src="img/card 1.png" alt="Pricing IMG 1" class="pricing__card__img">
+                    </figure>
+                    <div class="pricing__card__content">
+                        <h3 class="heading-tertiary pricing__card__heading">Standard</h3>
+                        <ul class="pricing__card__list">
+                            <li class="pricing__card__feature">- 1 hour session</li>
+                            <li class="pricing__card__feature">- 25 edited pictures</li>
+                            <li class="pricing__card__feature">- all photos available for your use</li>
+                            <li class="pricing__card__feature">- it will take from 7 to 10 daysto receive all your
+                                photos
+                            </li>
+                        </ul>
+                        <p class="pricing__card__price">60$</p>
+                        <a href="#" class="btn btn--brown btn--pricing">Order</a>
+                    </div>
+                </div>
+
+                <div class="pricing__card pricing__card--2">
+                    <figure class="pricing__card__figure pricing__card__figure--2">
+                        <img src="img/card 2.png" alt="Pricing IMG 2" class="pricing__card__img">
+                    </figure>
+                    <div class="pricing__card__content pricing__card__content--2">
+                        <h3 class="heading-tertiary pricing__card__heading">Regular</h3>
+                        <ul class="pricing__card__list">
+                            <li class="pricing__card__feature">- 2 hours session</li>
+                            <li class="pricing__card__feature">- 35 edited pictures</li>
+                            <li class="pricing__card__feature">- all photos available for your use</li>
+                            <li class="pricing__card__feature">- will receive edited picturesin 2-3 days </li>
+                            <li class="pricing__card__feature">- 20 minutes phone call style consultation included </li>
+                        </ul>
+                        <p class="pricing__card__price">90$</p>
+                        <a href="#" class="btn btn--brown btn--pricing">Order</a>
+                    </div>
+                </div>
+
+                <div class="pricing__card pricing__card--3">
+                    <figure class="pricing__card__figure pricing__card__figure--3">
+                        <img src="img/card 3.png" alt="Pricing IMG 3" class="pricing__card__img">
+                    </figure>
+                    <div class="pricing__card__content">
+                        <h3 class="heading-tertiary pricing__card__heading">Premium</h3>
+                        <ul class="pricing__card__list">
+                            <li class="pricing__card__feature">- 3 hours session</li>
+                            <li class="pricing__card__feature">- 50 edited pictures</li>
+                            <li class="pricing__card__feature">- all photos available for your use</li>
+                            <li class="pricing__card__feature">- will receive edited pictures in 2-3 days</li>
+                            <li class="pricing__card__feature">- 20 minutes phone call style consultation PLUS 1 hour in
+                                person pre-metting included to discuss all the details
+                            </li>
+                        </ul>
+                        <p class="pricing__card__price">120$</p>
+                        <a href="#" class="btn btn--brown btn--pricing">Order</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="faq" class="section section__faq u-margin-top-huge">
+            <h2 class="heading-secondery faq__heading">FAQ</h2>
+            <div class="faq__container">
+                <div class="faq__item">
+                    <div class="faq__item__text">
+                        <input type="checkbox" class="faq__item__text--input" id="faq__input-1">
+                        <label class="faq__item__text--button faq__item__text--button-1" for="faq__input-1"></label>
+                        <p class="paragraph">What are the terms and conditions of a photo shoot?</p>
+                        <p class="faq__item__text--answer faq__item__text--answer-1">A 50% deposit is required to secure
+                            day and time for ALL
+                            sessions. If a client cancels a photo session for any reason, the deposit won't be
+                            refundable.</p>
+                    </div>
+
+                    <div class="faq__item__text">
+                        <input type="checkbox" class="faq__item__text--input" id="faq__input-2">
+                        <label class="faq__item__text--button faq__item__text--button-2" for="faq__input-2"></label>
+                        <p class="paragraph">How long it takes to receive photos back?</p>
+                        <p class="faq__item__text--answer faq__item__text--answer-2">A 50% deposit is required to secure
+                            day and time for ALL
+                            sessions. If a client cancels a photo session for any reason, the deposit won't be
+                            refundable.</p>
+                    </div>
+
+                    <div class="faq__item__text">
+                        <input type="checkbox" class="faq__item__text--input" id="faq__input-3">
+                        <label class="faq__item__text--button faq__item__text--button-3" for="faq__input-3"></label>
+                        <p class="paragraph">How long does a photo session last?</p>
+                        <p class="faq__item__text--answer faq__item__text--answer-3">A 50% deposit is required to secure
+                            day and time for ALL
+                            sessions. If a client cancels a photo session for any reason, the deposit won't be
+                            refundable.</p>
+                    </div>
+
+                    <div class="faq__item__text">
+                        <input type="checkbox" class="faq__item__text--input" id="faq__input-4">
+                        <label class="faq__item__text--button faq__item__text--button-4" for="faq__input-4"></label>
+                        <p class="paragraph">What to do if I want more edited pictures?</p>
+                        <p class="faq__item__text--answer faq__item__text--answer-4">spa A 50% deposit is required to
+                            secure
+                            day and time for ALL
+                            sessions. If a client cancels a photo session for any reason, the deposit won't be
+                            refundable.</p>
+                    </div>
+
+                    <div class="faq__item__text">
+                        <input type="checkbox" class="faq__item__text--input" id="faq__input-5">
+                        <label class="faq__item__text--button faq__item__text--button-5" for="faq__input-5"></label>
+                        <p class="paragraph">What to do if I want receive edited pictures earlier?</p>
+                        <p class="faq__item__text--answer faq__item__text--answer-5">A 50% deposit is required to secure
+                            day and time for ALL
+                            sessions. If a client cancels a photo session for any reason, the deposit won't be
+                            refundable.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq__gallery">
+                <img class="faq__gallery__img faq__gallery__img--1 " src="img/faq big.png" alt="">
+                <img class="faq__gallery__img faq__gallery__img--2" src="img/faq small.png" alt="">
+            </div>
+        </section>
+
+        <section id="feedback" class="section section__feedback u-margin-top-large">
+            <h2 class="heading-secondery feedback__heading">Feedback</h2>
+            <div class="feedback__background">
+                <video id="background-video" autoplay loop muted>
+                    <source src="img/Woman adjusting camera.mp4" type="video/mp4">
+                    <source src="img/Woman adjusting camera.webm" type="video/webm" />
+                    Your Browser is not supported!
+                  </video>
+            </div>
+
+            <div class="feedback__slide">
+                <div class="feedback__text__container">
+                    <div class="feedback__text__slide text__active">
+                        <p class="paragraph feedback__paragraph"><span class="feedback__paragraph__gone">
+                                Honestly, it took me awhile to find a proper photographer
+                                who would be able to make my ideas come true and then Khrystyna happened. One day I just
+                                came
+                                across
+                                on her instagram. I liked the vibe, deep meaning, and visual simplicity
+                                of her works.</span>
+
+                            <span>Khrystyna did an amazing job! We met before my scheduled photoshoot to discuss the
+                                details.Photosession itself was
+                                a pleasure for me, I felt so comfortable and so myself with her!
+                                She exceeded my expectation. Will definitely schedule more photoshoots with her again
+                                and
+                                will
+                                refer
+                                her to my friends</span>
+
+                        </p>
+
+                        <a href="#" class="feedback__insta">
+                            <svg class="feedback__icon">
+                                <use xlink:href="img/sprite.svg#icon-insta"></use>
+                            </svg>
+                            Ivanca_khoma
+                        </a>
+                    </div>
+
+                    <div class="feedback__text__slide">
+                        <p class="paragraph feedback__paragraph"><span class="feedback__paragraph__gone">Khrystyna met
+                                and exceeded all of my
+                                expectations. I
+                                have a lot of friends who are professional photographers and my standards are very high.
+                                It
+                                was important to me to have someone that made me comfortable (awkward photos are the
+                                worst!), who listened to my wants & needs, and who could capture incredible
+                                images.</span>
+
+                            <span>Not only are her images stunning, but her editing and color work are out of this
+                                world. The
+                                worst part of the process is having to choose which photos to print and to turn into an
+                                album because there are thousands of incredible photos.</span>
+                        </p>
+
+                        <a href="#" class="feedback__insta">
+                            <svg class="feedback__icon">
+                                <use xlink:href="img/sprite.svg#icon-insta"></use>
+                            </svg>
+                            Sarah_J
+                        </a>
+                    </div>
+
+                    <div class="feedback__text__slide">
+                        <p class="paragraph feedback__paragraph"><span class="feedback__paragraph__gone">Khrystyna
+                                Photography was absolutely amazing from
+                                beginning to end. Khrystyna was very easyto work with, knowledgeable, and made us feel
+                                so
+                                comfortable throughout every step. The
+                                photographs captured the most intimate photos, Khrystyna's work made everything simply
+                                amazing. We cannot say enough great things about Khrystyna and her work!</span>
+
+                            <span>She’s professional and knows how to get the best shot. We could not have asked for a
+                                better
+                                experience for our pictures, Memories and moments.</span>
+                        </p>
+
+                        <a href="#" class="feedback__insta">
+                            <svg class="feedback__icon">
+                                <use xlink:href="img/sprite.svg#icon-insta"></use>
+                            </svg>
+                            Stacey_jale
+                        </a>
+                    </div>
+
+                </div>
+
+                <figure class="feedback__figure__dad">
+                    <figure class="feedback__figure figure__active">
+                        <img class="feedback__img" src="img/slide 1.png" alt="Feedback Img 1">
+                    </figure>
+                    <figure class="feedback__figure feedback__figure--2">
+                        <img class="feedback__img" src="img/slide 2.jpg" alt="Feedback Img 1">
+                    </figure>
+                    <figure class="feedback__figure feedback__figure--3">
+                        <img class="feedback__img" src="img/slide 3.jpg" alt="Feedback Img 1">
+                    </figure>
+
+
+                    <figcaption class="feedback__caption">
+                        <span>
+                            <svg class="feedback__arrow feedback__arrow--left">
+                                <use xlink:href="img/sprite.svg#icon-arrow-left"></use>
+                            </svg>
+                        </span>
+
+                        <p></p>
+
+                        <span>
+                            <svg class="feedback__arrow feedback__arrow--right">
+                                <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+        <section id="get-in-touch" class="section section__get-in-touch u-margin-top-huge">
+
+            <h2 class="heading-secondery u-margin-bottom">Get in touch</h2>
+            <div class="get-in-touch__background"></div>
+            <p class="paragraph get-in-touch__paragraph">For additional questions don’t hesitate
+                to contact me! I am exited to hear from you.</p>
+
+            <form action="#" class="get-in-touch__form">
+                <div class="form__group">
+                    <input type="text" class="form__input" id="name" placeholder="Your name" required
+                        autocomplete="off">
+                    <label for="name" class="form__label">Your name</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="email" class="form__input" id="email" placeholder="Your email" required
+                        autocomplete="off">
+                    <label for="email" class="form__label">Your eame</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="text" class="form__input" id="message" placeholder="Your message" required
+                        autocomplete="off">
+                    <label for="message" class="form__label">Your message</label>
+                </div>
+
+                <a href="#" class="btn btn--brown form__submit">Send</a>
+            </form>
+
+
+        </section>
+
+        <section id="reservation" class="section section__reservation u-margin-top-large">
+            <h2 class="heading-secondery reservation__heading u-margin-bottom">Make a reservation</h2>
+            <div class="reservation__background"></div>
+            <p class="paragraph reservation__paragraph">Check my availability in the calendar. Once you submit your
+                reservation, I will contact
+                you in 48 hour period to discuss the details of the photo session.</p>
+
+
+            <div class="reservation__calender">
+                <div class="calender">
+                    <div class="calender__month">
+                        <span class="prev arr">&larr;</span>
+                        <div class="calender__date">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                        <span class="next arr">&rarr;</span>
+                    </div>
+                    <div class="calender__weekdays">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    <div class="calender__days"></div>
+                </div>
+            </div>
+            <a class="btn btn--brown reservation__btn" href="">Make a reservetion</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer u-margin-top-huge">
+        <h2 class="heading-secondery footer__heading">Contact</h2>
+        <div class="footer__background"></div>
+        <form class="footer__form">
+            <p class="footer__form__paragraph">Sign up to newsletters</p>
+            <input class="footer__form__input" placeholder="Your E-mail"></input>
+            <a href="" class="btn btn--text"><span>Send</span> &rarr;</a>
+        </form>
+        <div class="footer__icon-container">
+            <a href="#">
+                <svg class="footer__icon footer__icon-logo">
+                    <use xlink:href="img/sprite.svg#icon-logo"></use>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg class="footer__icon footer__icon-facebook">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg class="footer__icon footer__icon-insta">
+                    <use xlink:href="img/sprite.svg#icon-insta"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="footer__content__gift">
+            <h3 class="heading-tertiary">E-gift cards</h3>
+            <p class="footer__content__paragraph">Delivered by mail, on the date of your choice!</p>
+            <a href="#" class="btn btn--text"><span>Buy</span> &rarr;</a>
+        </div>
+
+        <div class="footer__content__number">
+            <p class="paragraph">
+                <span>063-393-4430</span>
+                <span>khrystynatsaryk@gmail.com</span>
+            </p>
+        </div>
+
+        <div class="footer__content__location">
+            <p class="paragraph">Located in <span>Lviv, Ukraine</span>
+                available for photoshooting <span>worldwide</span></p>
+        </div>
+
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

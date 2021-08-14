@@ -1,0 +1,32 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "nexter",
+  "main": "index.js",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "last 10 versions"
+  ],
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start-development": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css ",
+    "prefix:css": "postcss css/style.comp.css --use autoprefixer -o css/style.prefix.css",
+    "compress:sass": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.0",
+    "concat": "^1.0.3",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1"
+  },
+  "dependencies": {}
+}
